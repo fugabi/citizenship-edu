@@ -578,7 +578,7 @@ a:hover {
   cursor: not-allowed;
 }
 .site-project-single-section {
-  padding: 250px 0 100px;
+  padding: 150px 0 100px;
 }
 @media (max-width: 767px) {
   .site-project-single-section {
