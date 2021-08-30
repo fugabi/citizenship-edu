@@ -1547,7 +1547,7 @@ figure.snip0078 figcaption {
 figure.snip0078 figcaption h2,
 figure.snip0078 figcaption p {
   margin: 0;
-  color: #ffffff;
+  color: #080808;
 }
 figure.snip0078 figcaption h2 {
   font-weight: 400;
@@ -1570,7 +1570,7 @@ figure.snip0078 a {
   z-index: 1;
 }
 figure.snip0078.blue figcaption {
-  background: #2595bea9;
+  background: #fdb4fd;
 }
 /* figure.snip0078.blue img {
   border: 1px solid #1b557a;
