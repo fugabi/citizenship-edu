@@ -102,6 +102,18 @@
   </nav>
   <main>
 
+
+    <div class="gdpr-bar">
+      <div class="left">
+        <span>Wir nutzen cookies.</span>
+       </div>
+      <div class="right">
+        <button class="accept-btn">PASST</button>
+      </div>
+    </div>
+
+
+
     <section class="site-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('images/abschlussfoto.jpg');">
       <div class="container">
         <div class="row">
@@ -774,6 +786,30 @@ document.addEventListener('keydown', keyPress);
     });
   </script>
 
+
+
+<script>
+
+var closeGDPR = $('.accept-btn');
+
+closeGDPR.on('click', function(){
+    var seen = sessionStorage.getItem('cookie');
+    if(seen === null) {
+        sessionStorage.setItem('cookie', 'seen');
+        $('.gdpr-bar').hide();
+    }
+    $('.gdbr-bar').hide();
+});
+
+$(document).ready(function(){
+    var seen = sessionStorage.getItem('cookie');
+  
+   if(seen === 'seen'){
+        $('.gdpr-bar').hide();
+    }
+});  
+
+</script>
 
 
 </body>
