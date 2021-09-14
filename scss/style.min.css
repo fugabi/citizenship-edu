@@ -1537,6 +1537,9 @@ figure.snip0078 img {
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
 }
+figcaption p {
+  line-height: 1.7em;
+}
 figure.snip0078 figcaption {
   bottom: 0;
   width: 80%;
